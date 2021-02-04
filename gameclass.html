@@ -31,7 +31,7 @@
             this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
             this.ctx.beginPath();
             this.ctx.arc(this.posX ,this.posY,this.width,0,Math.PI*2);
-            this.ctx.fillStyle = "#0095DD";
+            this.ctx.fillStyle = "orange";
             this.ctx.fill();
             this.ctx.closePath();
         }
@@ -134,7 +134,7 @@
                         this.bricks[c][r].y = this.posY;
                         this.ctx.beginPath();
                         this.ctx.rect(this.posX, this.posY, this.width, this.height);
-                        this.ctx.fillStyle = "#0095DD";
+                        this.ctx.fillStyle = "purple";
                         this.ctx.fill();
                         this.ctx.closePath();
                     }
